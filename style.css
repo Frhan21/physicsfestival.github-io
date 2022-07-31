@@ -107,10 +107,10 @@ div#rumah p {
 #about {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     font-weight: bold;
     height: 25vh;
-    background-color: lightblue;
+    background-color: rgb(38, 5, 252);
 }
 
 #about h1 {
@@ -130,8 +130,6 @@ div#rumah p {
     left: 0;
     right: 0;
     height: 90px;
-    border: #000 solid;
-    background-color: black;
     z-index: -1;
 }
 .content .about{
