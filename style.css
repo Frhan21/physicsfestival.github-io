@@ -156,6 +156,7 @@ div#rumah p {
 .about p {
     margin-inline: 28rem;
     font-size: 24px;
+    text-align: justify;
 }
 
 /* END OF ABOUT */
