@@ -110,6 +110,7 @@ header {
 	/* height: 50rem; */
 	max-height: max-content;
 	/* background-color: tomato; */
+	padding-bottom: 50px;
 }
 
 .poster {
@@ -424,13 +425,19 @@ button:hover {
 } */
 
 @media (max-width: 768px) {
+	body {
+		/* background-color: turquoise; */
+	}
+
 	header {
 		margin-left: 15%;
 		width: max-content;
+		/* background-color: teal; */
 	}
 
 	.content {
 		flex-direction: column;
+		/* background-color: tomato; */
 	}
 
 	.poster {
