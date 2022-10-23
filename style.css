@@ -147,7 +147,7 @@ nav .navigasi ul li a {
 nav #daftar {
     justify-self: end;
     font-size: 1em;
-    /* float: right; */
+    display: flex;
 }
 
 /* nav .container .navigasi {
@@ -174,6 +174,12 @@ nav #daftar {
     background-color: #252525;
     color: white;
     border-color: white;
+}
+
+#daftar .login {
+    /* display: flex; */
+    align-self: center;
+    padding-right: 20px;
 }
 
 /* CONTENT */
@@ -225,6 +231,7 @@ nav #daftar {
 }
 
 #home .home-img {
+    opacity: 0;
     position: relative;
 }
 
@@ -259,7 +266,7 @@ nav #daftar {
     margin: auto;
     height: max-content;
     z-index: -1;
-    background-image: url(img/owi-tepar.jpg);
+    /* background-image: url(img/owi-tepar.jpg); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -269,7 +276,7 @@ nav #daftar {
 #galery .latar-warna {
     position: absolute;
     inset: 0;
-    background-color: rgba(15, 15, 88, 0.432);
+    background-color: rgb(15, 15, 88);
     z-index: -1;
 }
 
@@ -281,7 +288,7 @@ nav #daftar {
     /* transform: translateY(50%);
     top: 50%; */
     /* inset: 0; */
-    top: 60%;
+    top: 55%;
     font-size: 10rem;
     font-weight: 800;
     color: white;
@@ -859,7 +866,7 @@ nav #daftar {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 970px) {
     .container {
         width: 90%;
     }
@@ -909,7 +916,7 @@ nav #daftar {
 
 @media screen and (max-width: 640px) {
     h1 {
-        font-size: 2rem;
+        font-size: 2em;
     }
     .container {
         width: 95%;
@@ -919,6 +926,11 @@ nav #daftar {
         padding-block: 3rem;
         padding-inline: 2rem;
         /* font-size: 2rem; */
+    }
+
+    #galery {
+        width: 100%;
+        left: 0;
     }
 }
 
