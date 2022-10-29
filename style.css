@@ -215,7 +215,7 @@ main section {
 #teams .container .kolom {
     height: 250px;
     overflow: hidden;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
 }
 
 #teams .kolom i {
