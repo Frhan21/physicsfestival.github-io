@@ -53,7 +53,7 @@ main section {
 /* HOME */
 #home {
     background-color: #252525;
-    height: 60vh;
+    height: 28rem;
 }
 
 #home .home-header {
@@ -201,10 +201,6 @@ main section {
     width: 60%;
 }
 
-#teams .container {
-    /* background-color: tomato; */
-}
-
 #teams .teams {
     font-size: 0.9rem;
     font-weight: 700;
@@ -219,6 +215,7 @@ main section {
 #teams .container .kolom {
     height: 250px;
     overflow: hidden;
+    border: 1px solid tomato;
 }
 
 #teams .kolom i {
@@ -251,7 +248,7 @@ main section {
 
 #teams .bar-bawah {
     height: var(--h-bar-bawah);
-    width: 95%;
+    width: 90%;
     background-color: #252525;
     bottom: 0;
 }
@@ -285,8 +282,6 @@ main section {
     color: #252525;
 }
 
-
-
 #contacts .contact-latar::after {
     content: "";
     position: absolute;
@@ -318,7 +313,8 @@ main section {
     z-index: 2;
 } */
 
-@media screen and (max-width: 990px){
+@media screen and (max-width: 1024px){
+    /* HOME */
     #home {
         height: 60vh;
     }
@@ -330,9 +326,397 @@ main section {
     #home .home-header span {
         font-size: 1rem;
     }
+
+    /* ABOUT */
+    #about .about {
+        font-size: .7rem;
+    }
+
+    #about .about-sub {
+        font-size: 1.2rem;
+    }
+
+    #about .about-isi {
+        font-size: 1rem;
+    }
+
+    /* GALLERY */
+    #gallery {
+        height: 70vh;
+    }
+
+    #gallery .gallery {
+        font-size: 1.2rem;
+        color: white;
+        font-weight: 500;
+        letter-spacing: .8rem;
+    }
+
+    /* EVENTS */
+    #events {
+        width: 80%;
+    }
+
+    #events .events {
+        font-size: .7rem;
+    }
+
+    #events .events-sub {
+        font-size: 1.2rem;
+    }
+
+    #events .card-title {
+        font-size: 1.3rem;
+        bottom: .8rem;
+    }
+
+    #events .card-text, #events .card-text button {
+        font-size: .8rem;
+    }
+
+    .card .card-img-overlay .bar-bawah {
+        height: 4rem;
+    }
+
+    .card .card-img-overlay:hover .bar-bawah{
+        height: 18rem;
+    }
+    
+    .card .card-img-overlay:hover .card-title{
+        transform: translateY(-14rem);
+    }
+    
+    .card .card-img-overlay:hover .card-text{
+        transform: translateY(-14rem);
+    }
+
+    /* OUR TEAMS */
+    #teams {
+        --d-lingkaran: 100px;
+        --h-bar-bawah: 40px;
+
+        width: 70%;
+    }
+
+    #teams .teams {
+        font-size: .7rem;
+    }
+    
+    #teams .teams-sub {
+        font-size: 1.2rem;
+    }
+
+    #teams .container .kolom {
+        height: 200px;
+    }
+
+    #teams .kolom i {
+        font-size: 25px;
+    }
+
+    #teams .subtitle {
+        margin-bottom: 3px;
+    }
+
+    #teams .subtitle .nama {
+        font-size: .8rem;
+    }
+
+    #teams .subtitle .jabatan {
+        font-size: .7rem;
+    }
+
+    /* CONTACTS */
+    #contacts .contact-brand {
+        font-size: .7rem;
+    }
+    
+    #contacts .contact-menu {
+        padding-top: 2rem!important;
+        /* border: 1px solid tomato; */
+    }
+
+    #contacts .contact-menu .menu{
+        font-size: .7rem;
+    }
+
+    #contacts .contact-menu .header {
+        font-size: .8rem;
+    }
 }
 
-@media screen and (max-width: 836px) {
+@media screen and (max-width: 834px) {
+    #home {
+        width: 100%;
+    }
 
+    #contacts {
+        width: 100%;
+    }
     
+    #teams .kolom i {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #teams {
+        --d-lingkaran: 90px;
+        --h-bar-bawah: 38px;
+
+        width: 80%;
+    }
+
+    #teams .container .kolom {
+        height: 180px;
+    }
+
+    #teams .subtitle .nama {
+        font-size: .7rem;
+    }
+
+    #teams .subtitle .jabatan {
+        font-size: .6rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    /* ABOUT */
+    #about {
+        width: 70%;
+    }
+    
+    #about .about {
+        font-size: .6rem;
+    }
+
+    #about .about-sub {
+        font-size: 1.1rem;
+    }
+
+    #about .about-isi {
+        font-size: .9rem;
+    }
+
+    /* TEAMS */
+    #teams {
+        --d-lingkaran: 80px;
+        --h-bar-bawah: 38px;
+
+        width: 90%;
+    }
+
+    /* CONTACTS */
+    #contacts .contact-brand {
+        font-size: .6rem;
+    }
+    
+    #contacts .contact-menu {
+        padding-top: 2rem!important;
+        /* border: 1px solid tomato; */
+    }
+
+    #contacts .contact-menu .menu{
+        font-size: .6rem;
+    }
+
+    #contacts .contact-menu .header {
+        font-size: .7rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    /* HOME */
+    #home .home-header h1 {
+        font-size: 2rem;
+    }
+
+    #home .home-header span {
+        font-size: .8rem;
+    }
+
+    /* ABOUT */
+    #about {
+        width: 70%;
+    }
+    
+    #about .about {
+        font-size: .5rem;
+    }
+
+    #about .about-sub {
+        font-size: 1rem;
+    }
+
+    #about .about-isi {
+        font-size: .8rem;
+    }
+
+    /* TEAMS */
+    #teams {
+        --d-lingkaran: 60px;
+        --h-bar-bawah: 30px;
+
+        width: 90%;
+    }
+
+    #teams .container .kolom {
+        height: 120px;
+    }
+
+    #teams .kolom i {
+        font-size: 18px;
+    }
+
+    #teams .kolom:hover i {
+        transform: translateX(-40px);
+    }
+
+    #teams .subtitle .nama {
+        font-size: .6rem;
+    }
+
+    #teams .subtitle .jabatan {
+        font-size: .5rem;
+    }
+
+    /* CONTACTS */
+    #contacts {
+        height: 110px;
+    }
+
+    #contacts .contact-brand {
+        padding-inline: 0!important;
+    }
+
+    #contacts .col-5 {
+        height: 110px;
+    }
+
+    #contacts .contact-brand {
+        font-size: .4rem;
+    }
+    
+    #contacts .kanan{
+       position: absolute;
+       right: 0;
+       transform: translateX(-150%);
+    }
+
+    #contacts .contact-menu {
+        padding-top: 20px!important;
+    }
+
+    #contacts .contact-menu .menu{
+        font-size: .4rem;
+    }
+
+    #contacts .contact-menu .header {
+        font-size: .5rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #teams {
+        --d-lingkaran: 50px;
+        --h-bar-bawah: 28px;
+
+        width: 90%;
+    }
+
+    #teams .subtitle .nama {
+        font-size: .5rem;
+    }
+    
+    #teams .subtitle .jabatan {
+        font-size: .4rem;
+    }
+    
+    #teams .kolom i {
+        font-size: 15px;
+    }
+
+    #teams .kolom:hover i {
+        transform: translateX(-40px);
+    }
+
+    /* CONTACTS */
+    #contacts .kanan{
+        transform: translateX(-100%);
+    }
+ 
+    #contacts .contact-menu {
+        padding-top: 25px!important;
+    }
+
+    #contacts .contact-menu .menu{
+        font-size: .4rem;
+    }
+
+    #contacts .contact-menu .header {
+        font-size: .5rem;
+        padding-bottom: .5rem!important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* EVENTS */
+    #events {
+        margin-top: 50px;
+    }
+
+    #events .events {
+        font-size: .5rem;
+    }
+    
+    #events .events-sub {
+        font-size: 1rem;
+    }
+
+    /* TEAMS */
+    #teams {
+        --d-lingkaran: 45px;
+        --h-bar-bawah: 25px;
+    }
+
+    #teams .teams {
+        font-size: .5rem;
+    }
+
+    #teams .teams-sub {
+        font-size: 1rem;
+    }
+
+    #teams .subtitle .nama {
+        font-size: .4rem;
+    }
+    
+    #teams .subtitle .jabatan {
+        font-size: .3rem;
+    }
+
+    #teams .container .kolom {
+        height: 80px;
+    }
+
+    /* CONTACTS */
+    #contacts .contact-brand {
+        padding-inline: 0!important;
+    }
+    #contacts .kanan{
+        transform: translateX(-70%);
+    }
+ 
+    #contacts .contact-menu {
+        padding-top: 25px!important;
+    }
+
+    #contacts .contact-menu .menu{
+        font-size: .35rem;
+    }
+
+    #contacts .contact-menu .header {
+        font-size: .4rem;
+        padding-bottom: .5rem!important;
+    }
 }
