@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+      
+    <!-- BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!-- LOCAL CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+    <nav class="sidenav" id="sidenav">
+        <div class="navbrand">
+            <div class="img"></div>
+            <!-- <img class="rounded" src='../img/harto-chan.jpg'> -->
+            <a href=""><h2 class="title title-medium">Fulan/ah</h2></a>
+        </div>
+        <ul class="navmenu">
+            <li class="navmenu-item"><a href="#" class="navmenu-link">Home</a></li>
+            <li class="navmenu-item"><a href="#" class="navmenu-link">About</a></li>
+            <li>
+                <a class="navmenu-link" data-bs-toggle="collapse" href="#contentId" aria-expanded="false" aria-controls="contentId">
+                    Events
+                </a>
+            </li>
+            <li class="collapse" id="contentId">
+                <ul class="events-item px-0 mx-0">
+                    <li class="navmenu-item">
+                        <a href="" class="navmenu-link">Lomba Fisika</a>
+                    </li>
+                    <li class="navmenu-item">
+                        <a href="" class="navmenu-link">LKTI</a>
+                    </li>
+                    <li class="navmenu-item">
+                        <a href="" class="navmenu-link">Ranking 1</a>
+                    </li>
+                    <li class="navmenu-item">
+                        <a href="" class="navmenu-link">Design Competition</a>
+                    </li>
+                    <li class="navmenu-item">
+                        <a href="" class="navmenu-link">Mading Competition</a>
+                    </li>
+                    <li class="navmenu-item">
+                        <a href="" class="navmenu-link">LCTF</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="navmenu-item"><a href="#" class="navmenu-link">Log out</a></li>
+        </ul>
+        <div class="navinfo">
+            <div class="social">
+                <a href="#" class="social-item"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="social-item"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="social-item"><i class="fa fa-youtube "></i></a>
+                
+            </div>
+            <div class="attrib">
+                &copy;Copyright 2022 - Physics Festival <i class="ion ion-md-heart"></i>
+            </div>
+        </div>
+    </nav>
+ 
+    <header class="header">
+        <div class="burgermenu" id="burgermenu">
+            <span class="burgermenu-open" id="openmenu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16">
+                    <g fill="#252a32" fill-rule="evenodd">
+                        <path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z" />
+                    </g>
+                </svg>
+            </span>
+            <span class="burgermenu-close" id="closemenu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                    <path fill="#ffffff" fill-rule="evenodd" d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z" />
+                </svg>
+            </span>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <div class="row justify-content-center align-items-center g-0">
+                <div class="kolom col-lg-12 p-5 mt-5 mx-5 mb-2"> 
+                    <div class="head">User profile</div>
+                    <div class="row my-5">
+                        <div class="profil col-lg-4 col-12">
+                            <div class="img">a</div>
+                            <h2 class="title title-medium">Fulan/ah</h2>
+                        </div>
+                        <div class="col-lg-8 col-12">
+                            Nama:<br>
+                            Umur:<br>
+                            Asal sekolah:<br>
+                            Email:<br>
+                            No. telepon<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <script>
+        const sideNav = document.getElementById("sidenav");
+        const burgerMenu = document.getElementById("burgermenu");
+
+        burgerMenu.addEventListener("click", function () {
+            sideNav.classList.toggle("active");
+            burgerMenu.classList.toggle("active");
+        });
+    </script>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
