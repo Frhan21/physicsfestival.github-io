@@ -167,12 +167,22 @@ main section {
     bottom: 1rem;
 }
 
+#events .card-title a{
+    text-decoration: none;
+    color: white;
+}
+
 #events .card-title .text-muted {
     display: none;
 }
 
 #events .card-text {
     z-index: 2;
+}
+
+#events .card-img-overlay .selfie {
+    font-size: 1.8rem;
+    bottom: -.3rem;
 }
 
 .card .card-img-overlay .bar-bawah {
@@ -498,6 +508,50 @@ main section {
         font-size: .9rem;
     }
 
+    /* EVENTS */
+    #events {
+        width: 85%;
+    }
+
+    #events .events {
+        font-size: .6rem;
+    }
+
+    #events .events-sub {
+        font-size: 1.1rem;
+    }
+
+    #events .card-title {
+        font-size: 1rem;
+        bottom: .5rem;
+    }
+
+    #events .card-img-overlay .selfie {
+        font-size: 1rem;
+        bottom: -.2rem;
+    }
+
+    #events .card-text, #events .card-text button {
+        font-size: .7rem;
+    }
+
+    .card .card-img-overlay .bar-bawah {
+        height: 3rem;
+    }
+
+    .card .card-img-overlay:hover .bar-bawah{
+        height: 18rem;
+    }
+    
+    .card .card-img-overlay:hover .card-title{
+        transform: translateY(-14rem);
+    }
+    
+    .card .card-img-overlay:hover .card-text{
+        transform: translateY(-14rem);
+    }
+
+
     /* TEAMS */
     #teams {
         --d-lingkaran: 80px;
@@ -550,6 +604,49 @@ main section {
 
     #about .about-isi {
         font-size: .8rem;
+    }
+
+    /* EVENTS */
+    #events {
+        width: 85%;
+    }
+
+    #events .events {
+        font-size: .5rem;
+    }
+
+    #events .events-sub {
+        font-size: 1rem;
+    }
+
+    #events .card-title {
+        font-size: .8rem;
+        bottom: .4rem;
+    }
+
+    #events .card-img-overlay .selfie {
+        font-size: .7rem;
+        bottom: .2rem;
+    }
+
+    #events .card-text, #events .card-text button {
+        font-size: .5rem;
+    }
+
+    .card .card-img-overlay .bar-bawah {
+        height: 2.5rem;
+    }
+
+    .card .card-img-overlay:hover .bar-bawah{
+        height: 11rem;
+    }
+    
+    .card .card-img-overlay:hover .card-title{
+        transform: translateY(-8.5rem);
+    }
+    
+    .card .card-img-overlay:hover .card-text{
+        transform: translateY(-9rem);
     }
 
     /* TEAMS */
@@ -617,28 +714,11 @@ main section {
 }
 
 @media screen and (max-width: 375px) {
-    #teams {
-        --d-lingkaran: 50px;
-        --h-bar-bawah: 28px;
-
-        width: 90%;
-    }
-
-    #teams .subtitle .nama {
-        font-size: .5rem;
-    }
     
-    #teams .subtitle .jabatan {
-        font-size: .4rem;
-    }
-    
-    #teams .kolom i {
-        font-size: 15px;
-    }
-
-    #teams .kolom:hover i {
-        transform: translateX(-40px);
-    }
+    /* EVENTS */
+    #events {
+        width: 95%;
+    }   
 
     /* CONTACTS */
     #contacts .kanan{
@@ -671,6 +751,19 @@ main section {
     
     #events .events-sub {
         font-size: 1rem;
+    }
+
+    #events .card-title {
+        font-size: .8rem;
+        bottom: .4rem;
+    }
+
+    #events .card-img-overlay .selfie{
+        font-size: .7rem;
+        bottom: -.1rem;
+    }
+    #events .card-img-overlay .mading,     #events .card-img-overlay .design {
+        bottom: -.2rem;
     }
 
     /* TEAMS */
