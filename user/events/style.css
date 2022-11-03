@@ -222,6 +222,107 @@ img {
     transition: all 0.5s ease;
 }
 
+
+/* CARD */
+.scene {
+    /* display: inline-block; */
+    /* height: 100%;
+    width: 33.3%; */
+  /*   border: 1px solid #CCC; */
+    perspective: 600px;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    transition: transform 1s;
+}
+
+.card.is-flipped {
+    transform: translateX(-100%) rotateY(-180deg);
+}
+
+.card__face {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: black;
+    backface-visibility: hidden;
+}
+
+.card__face .head {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-70%);
+    font-size:2rem;
+    font-weight: 600;
+}
+
+.card__face .head .sub {
+    font-weight: 400;
+    font-size:1rem;
+}
+
+.card__face .btn {
+    position: absolute;
+    background-color: #023047;
+    color: white;
+    transform: translateX(-50%);
+    font-size:.8rem;
+    z-index: 20;
+}
+
+.card__face .btn:hover {
+    position: absolute;
+    background-color: #012233!important;
+    color: white;
+    z-index: 20;
+}
+
+.card__face--front {
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kolom:nth-child(1) .card__face--front {
+    background-image: url(../../img/poster-lomba/Slice\ 7.png);
+}
+
+.kolom:nth-child(2) .card__face--front {
+    background-image: url(../../img/poster-lomba/Slice\ 11.png);
+}
+
+.kolom:nth-child(3) .card__face--front {
+    background-image: url(../../img/poster-lomba/Slice\ 13.png);
+}
+
+.kolom:nth-child(4) .card__face--front {
+    background-image: url(../../img/poster-lomba/Slice\ 12.png);
+}
+
+.kolom:nth-child(5) .card__face--front {
+    background-image: url(../../img/poster-lomba/Slice\ 10.png);
+}
+
+.kolom:nth-child(6) .card__face--front {
+    background-image: url(../../img/poster-lomba/Slice\ 9.png);
+}
+
+.card__face--back {
+    background: white;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+}
+
 /* MAIN */
 .container {
     /* background-color: white; */
@@ -233,7 +334,7 @@ img {
 }
 
 .kolom {
-    height: 200px;
+    /* height: 150px; */
     /* background: pink; */
 }
 
@@ -243,15 +344,21 @@ img {
     font-weight: 500;
     height: 100%;
     color: white;
-    background-color: gray;
+    /* background-color: gray; */
     border-radius: 10px;
 }
 
-.events:hover {
+/* .events:hover {
     transform: translateY(-5px)
+} */
+
+.events img {
+    z-index: 10;
+    width: 140px;
 }
 
 .arrow {
+    display: none;
     rotate: 225deg;
     font-size: 190px;
     bottom: -60px;
@@ -261,6 +368,7 @@ img {
 }
 
 .pf-24 {
+    display: none;
     font-size: 15rem;
     right: 80px;
     top: 0px;
@@ -288,6 +396,44 @@ img {
     top: -200px;
 }
 
+@media screen and (max-width: 1024px) {
+    .card__face .head {
+        font-size:1rem;
+    }
+    
+    .card__face .head .sub {
+        font-weight: 400;
+        font-size:.8rem;
+    }
+    
+    .card__face .btn {
+        font-size:.6rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .row {
+        width: 100%;
+    }
+
+    .scene {
+        height: 300px;
+    }
+
+    .card__face .head {
+        font-size:1rem;
+    }
+    
+    .card__face .head .sub {
+        font-weight: 400;
+        font-size:.8rem;
+    }
+    
+    .card__face .btn {
+        font-size:.6rem;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     body {
         margin-left: 0;
@@ -309,7 +455,7 @@ img {
         text-align: center;
     }
 
-    .btn {
+    .sidenav .btn {
         left: 15px;
     }
 
@@ -333,4 +479,24 @@ img {
         display: block;
     }
 
+    .row {
+        width: 300px;
+    }
+
+    .scene {
+        height: 300px;
+    }
+
+    .card__face .head {
+        font-size:1rem;
+    }
+    
+    .card__face .head .sub {
+        font-weight: 400;
+        font-size:.8rem;
+    }
+    
+    .card__face .btn {
+        font-size:.6rem;
+    }
 }
