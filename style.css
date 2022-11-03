@@ -159,7 +159,7 @@ main section {
 
 #events .card {
     overflow: hidden;
-    color: white;
+    color: #252525;
 }
 
 #events .card-title {
@@ -169,7 +169,7 @@ main section {
 
 #events .card-title a{
     text-decoration: none;
-    color: white;
+    color: #252525;
 }
 
 #events .card-title .text-muted {
@@ -188,18 +188,19 @@ main section {
 .card .card-img-overlay .bar-bawah {
     height: 5rem;
     z-index: 1;
+    background-color: white!important;
 }
 
 .card .card-img-overlay:hover .bar-bawah{
-    height: 25rem;
+    height: 19rem;
 }
 
 .card .card-img-overlay:hover .card-title{
-    transform: translateY(-20rem);
+    transform: translateY(-14rem);
 }
 
 .card .card-img-overlay:hover .card-text{
-    transform: translateY(-20rem);
+    transform: translateY(-14rem);
 }
 
 /* TEAMS */
@@ -381,23 +382,28 @@ main section {
     }
 
     #events .card-text, #events .card-text button {
-        font-size: .8rem;
+        font-size: .6rem;
     }
 
     .card .card-img-overlay .bar-bawah {
         height: 4rem;
     }
 
+    #events .card-img-overlay .selfie {
+        font-size: 1.2rem;
+        bottom: -.1rem;
+    }
+
     .card .card-img-overlay:hover .bar-bawah{
-        height: 18rem;
+        height: 14rem;
     }
     
     .card .card-img-overlay:hover .card-title{
-        transform: translateY(-14rem);
+        transform: translateY(-10rem);
     }
     
     .card .card-img-overlay:hover .card-text{
-        transform: translateY(-14rem);
+        transform: translateY(-10rem);
     }
 
     /* OUR TEAMS */
@@ -532,7 +538,7 @@ main section {
     }
 
     #events .card-text, #events .card-text button {
-        font-size: .7rem;
+        font-size: .5rem;
     }
 
     .card .card-img-overlay .bar-bawah {
@@ -540,15 +546,15 @@ main section {
     }
 
     .card .card-img-overlay:hover .bar-bawah{
-        height: 18rem;
+        height: 10rem;
     }
     
     .card .card-img-overlay:hover .card-title{
-        transform: translateY(-14rem);
+        transform: translateY(-7rem);
     }
     
     .card .card-img-overlay:hover .card-text{
-        transform: translateY(-14rem);
+        transform: translateY(-7rem);
     }
 
 
@@ -626,11 +632,11 @@ main section {
 
     #events .card-img-overlay .selfie {
         font-size: .7rem;
-        bottom: .2rem;
+        bottom: 0rem;
     }
 
     #events .card-text, #events .card-text button {
-        font-size: .5rem;
+        font-size: .4rem;
     }
 
     .card .card-img-overlay .bar-bawah {
@@ -638,15 +644,15 @@ main section {
     }
 
     .card .card-img-overlay:hover .bar-bawah{
-        height: 11rem;
+        height: 9rem;
     }
     
     .card .card-img-overlay:hover .card-title{
-        transform: translateY(-8.5rem);
+        transform: translateY(-6.5rem);
     }
     
     .card .card-img-overlay:hover .card-text{
-        transform: translateY(-9rem);
+        transform: translateY(-7rem);
     }
 
     /* TEAMS */
