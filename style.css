@@ -358,7 +358,7 @@ main section {
     }
 
     #events .card-text, #events .card-text button {
-        font-size: .6rem;
+        font-size: .78rem;    
     }
 
     .card .card-img-overlay .bar-bawah {
@@ -366,8 +366,8 @@ main section {
     }
 
     #events .card-img-overlay .selfie {
-        font-size: 1.2rem;
-        bottom: -.1rem;
+        font-size: 1.4rem;
+        /* bottom: -.1rem; */
     }
 
     .card .card-img-overlay:hover .bar-bawah{
@@ -382,6 +382,31 @@ main section {
         transform: translateY(-10rem);
     }
     
+    /* CONTACTS */
+    #contacts .contact-brand {
+        font-size: .7rem;
+    }
+
+    #contacts .contact-brand .brand {
+        width: 150px;
+    }
+
+    #contacts .contact-brand .detail {
+        font-size: .7rem;
+    }
+    
+    #contacts .contact-menu {
+        padding-top: 2rem!important;
+        /* border: 1px solid tomato; */
+    }
+
+    #contacts .contact-menu .menu{
+        font-size: .7rem;
+    }
+
+    #contacts .contact-menu .header {
+        font-size: .8rem;
+    }
 }
 
 @media screen and (max-width: 1024px){
