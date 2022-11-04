@@ -350,6 +350,40 @@ main section {
     z-index: 2;
 } */
 
+@media screen and (max-width: 1440px) {
+
+    #events .card-title {
+        font-size: 1.3rem;
+        bottom: .8rem;
+    }
+
+    #events .card-text, #events .card-text button {
+        font-size: .6rem;
+    }
+
+    .card .card-img-overlay .bar-bawah {
+        height: 4rem;
+    }
+
+    #events .card-img-overlay .selfie {
+        font-size: 1.2rem;
+        bottom: -.1rem;
+    }
+
+    .card .card-img-overlay:hover .bar-bawah{
+        height: 14rem;
+    }
+    
+    .card .card-img-overlay:hover .card-title{
+        transform: translateY(-10rem);
+    }
+    
+    .card .card-img-overlay:hover .card-text{
+        transform: translateY(-10rem);
+    }
+    
+}
+
 @media screen and (max-width: 1024px){
     /* HOME */
     #home {
