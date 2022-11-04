@@ -1,659 +1,537 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>PHYSICS FESTIVAL XXIV</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 
-  <!-- Bootstrap CSS v5.2.1 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  
-  <!-- BOXICONS -->
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"></script>
 
-  <!-- FONT AWESOME -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script> -->
 
-  <!-- LOCAL CSS -->
-  <link rel="stylesheet" href="style.css">
+    <title>PHYSICS FEST. 24</title>
 </head>
-
 <body>
-  <header class="sticky-top">
-    <nav class="py-3 mx-auto navbar navbar-expand-lg">
-
-      <!-- Brand -->
-      <a class="navbar-brand" href="#">Navbar</a> 
-      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <i class="bx bx-menu"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavId">
-        <ul class="navbar-nav me-auto mt-2 mt-lg-0"></ul>
-
-         <!-- Bagian Tengah -->
-        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-            <li class="nav-item px-1">
-                <a class="nav-link active" href="#home" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
-            </li>
-            <li class="nav-item px-1">
-                <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item px-1">
-                <a class="nav-link" href="#events">Events</a>
-            </li>
-            <!-- <li class="nav-item px-1">
-                <a class="nav-link" href="#teams">Our Teams</a>
-            </li> -->
-            <li class="nav-item px-1">
-                <a class="nav-link" href="#contacts">Contacts</a>
-            </li>
-        </ul>
-
-         <!-- log in | sign up -->
-        <ul class="navbar-nav">
-          <li class="nav-item px-2">
-            <a href="" class="nav-link log-in">Log in</a>
-            <!-- <a name="" id="" class="btn btn-secondary bg-white log-in" href="#" role="button">Log in</a> -->
-          </li>
-          <li class="nav-item px-2">
-            <a name="" id="" class="btn btn-primary sign-up" href="#" role="button">Sign up</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <main>
-
-    <!-- HOME -->
-    <section id="home" class="m-auto position-relative">
-      <div class="home-header position-absolute px-5">
-        <h1>Touching Physics <br>by Invisible Light</h1>
-        <span>Masukkan filosifi tema</span>
-      </div>
-      <!-- <img src="img/paslon-10.png" alt="" class="float-end"> -->
-      <!-- <div class="home-img h-100 w-100 position-relative">
-        <img src="img/paslon-10.png" alt="" class="float-end">
-      </div> -->
-    </section>
-
-    <!-- ABOUT -->
-    <section id="about" class="mx-auto my-4 mb-5">
-      <div class="about text-center">ABOUT</div>
-      <div class="about-sub text-center">WHAT WE DO</div>
-      <div class="about-isi pt-3"><span class="fw-bold">Physics Festival</span> adalah <span class="fst-italic">event</span> tahunan oleh Himpunan Mahasiswa Fisika Universitas Andalas yang telah diikuti oleh puluhan ribu siswa dari ratusan sekolah di seluruh Indonesia
-
-      <br><br>Buang jauh-jauh stigma soal fisika itu hanya rumus, guru <span class="fst-italic">killer</span> dan 'hadeh remedial lagi'. Melalui berbagai keseruan di Physics Festival ke-24, kamu akan sadar kalau fisika itu ternyata sangat menyenangkan sekali
-
-      <br><br>Dengan tantangan dan semangat baru, dan demi menyebarkan keseruan fisika hingga ke seluruh Indonesia, kami melandasi Physics Festival tahun ini dengan tema "<span class="fw-bold">Touching Physics by Invisible Light</span>"</div>
-    </section>
-
-    <!-- PF IN NUMBERS -->
-    <!-- <section id="pf-in-numbers" class="mx-auto my-5 px-5 d-flex flex-md-row justify-content-between">
-      <div class="header align-self-center">
-        <div class="1">Physics Festival<br>year-by-year</div>
-        <div class="2">Physics Festival mengenalkan fisika dengan cara baru</div>
-      </div>
-
-      <div class="details align-self-center">
+    <nav>
         <div class="container">
-          <div class="row">
-            <div class="col-4">
-              Event tingkat nasional
+            <div class="nav-header"><a class="nav-brand" href="#home">PFXXIV</a></div>
+            <div class="nav-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-            <div class="col-4">
-              2k+ sekolah
+            <div class="navigasi navbar-links">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#events">EVENTS</a></li>
+                    <li><a href="#teams">OUR TEAMS</a></li>
+                    <li><a href="#contact">CONTACTS</a></li>
+                </ul>
             </div>
-            <div class="col-4">
-              10k+ peserta
+            <div id="daftar">
+                <a href="#login" class="login">Log in</a>
+                <a class='navbar-links' href="#pendaftaran"><div class="daftar">Daftar Sekarang</div></a>
             </div>
-          </div>
         </div>
-      </div>
-    </section> -->
+    </nav>
 
-    <!-- GALERY -->
-    <!-- <section id="gallery" class="mx-auto mt-5 position-relative">
-      <div class="container h-100 mx-auto px-5">
-        <div class="gallery py-4 text-center">
-          GALERY
-        </div>
-        <div class="gallery-sub position-absolute">
-          W<br>H<br>A<br>T<br><br>W<br>E<br><br>D<br>I<br>D
-        </div>
-        <div class="gambar container-md mx-auto ">
-          <div class="row">
-            <div class=".gambar-kecil col-4">
-              <div class="row">
-                <div class="col-6 p-1 mx-0">
-                  <img src="img/galeri.png" alt="">
+    <div class="content">
+        <div class="container">
+            <section id="home">
+                <div class="home">
+                    <p><h1>Touching Physics by Invisible Light</h1>
+                        Masukkan filosofi tema
+                    </p>
                 </div>
-                <div class="col-6 p-1 mx-0">
-                  <img src="img/galeri.png" alt="">
+                <div class="home-img">
+                    <img src="img/owi-tepar.jpg" alt="">
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-6 p-1 mx-0">
-                  <img src="img/galeri.png" alt="">
-                </div>
-                <div class="col-6 p-1 mx-0">
-                  <img src="img/galeri.png" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="col-4 p-1 mx-0">
-              <img src="img/galeri.png" alt="">
-            </div>
-            <div class="col-4">
-              <div class="row">
-                <div class="col-6 p-1 mx-0">
-                  <img src="img/galeri.png" alt="">
-                </div>
-                <div class="col-6 p-1 mx-0">
-                  <img src="img/galeri.png" alt="">
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-6 p-1 mx-0">
-                  <img src="img/galeri.png" alt="">
-                </div>
-                <div class="col-6 p-1 mx-0">
-                  <img src="img/galeri.png" alt="">
-                </div>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-      </div>
-    </section> -->
+            </section>
+    
+            <section id="about">
+                <div class="about">
+                    <h5>ABOUT</h5>
+                    <h2>WHAT WE DO</h2>
+                    <div><span class="bold">Physics Festival</span> adalah <span class="italic">event</span> tahunan oleh Himpunan Mahasiswa Fisika Universitas Andalas yang telah diikuti oleh puluhan ribu siswa dari ratusan sekolah di seluruh Indonesia
 
-    <!-- EVENTS -->
-    <section id="events" class="mx-auto">
-      <div class="events text-center">EVENTS</div>
-      <div class="events-sub text-center">TOUCH THE UNTOUCHABLE</div>
+                    <br><br>Buang jauh-jauh stigma soal fisika itu hanya rumus, guru <span class="italic">killer</span> dan 'hadeh remedial lagi'. Melalui berbagai keseruan di Physics Festival ke-24, kamu akan sadar kalau fisika itu ternyata sangat menyenangkan sekali
 
-      <!-- Grid card -->
-      <div class="row"> <!-- Baris 1 -->
-        <div class="col-lg-4 col-6 my-4">
-          <div class="card position-relative">
-            <img src="img/poster-lomba/Slice 5.png" alt="" class="card-img">
-            <div class="card-img-overlay">
-              <h3 class="card-title position-absolute">
-                <a>Grand Opening</a>
-              </h3>
-              <div class="card-text pe-1 position-absolute top-100">
-                <small class="text-muted">30 Januari 2023 - Auditorium UNAND</small><br>
-                <div class="detail-acara">Grand opening merupakan salah satu acara Physics Festival ke-24 yang bersifat ceremonial<br>
+                    <br><br>Dengan tantangan dan semangat baru, dan demi menyebarkan keseruan fisika hingga ke seluruh Indonesia, kami melandasi Physics Festival tahun ini dengan tema "<span class="bold">Touching Physics by Invisible Light</span>"</div>
                 </div>
-
-                <!-- <a href="" class="text-muted">Lihat selengkapnya ...</a><br> -->
-
-                <!-- <br><button type="button" class="btn btn-primary">Daftar Sekarang!</button> -->
-                
-              </div>
-              <div class="bar-bawah position-absolute rounded-bottom w-100 bg-dark bottom-0 start-0"></div>
-            </div>
-          </div>
-        </div>
+            </section>
         
-        <div class="col-lg-4 col-6 my-4">
-          <div class="card position-relative">
-            <img src="img/poster-lomba/Slice 7.png" alt="" class="card-img">
-            <div class="card-img-overlay">
-              <h3 class="card-title position-absolute">
-                <a href="detail-events/2lomba-fisika/index.html" target="_blank">Lomba Fisika</a>
-              </h3>
-              <div class="card-text pe-1 position-absolute top-100">
-                <small class="text-muted">30 Januari 2023 - Auditorium UNAND</small><br>
-                <div class="detail-acara">Lomba adu kebolehan peserta lomba dalam menyelesaikan persoalan fisika pada kehidupan sehari-hari<br>
-                </div>
 
-                <a href="detail-events/2lomba-fisika/index.html" target="_blank"class="text-muted">Lihat selengkapnya ...</a><br>
+            <section id="galery">
+                <div class="latar-warna"></div>
+                <div class="latar-text">WHAT WE <br>DID</div>
+                <div class="galery">
+                    <div class="header">
+                        GALERY
+                    </div>
+                    <div class="boxes">
+                        <div class="box">1</div>
+                        <div class="box">2</div>
+                        <div class="box">3</div>
+                        <div class="box">4</div>
+                        <div class="box">5</div>
+                        <div class="box">6</div>
+                        <div class="box">7</div>
+                        <div class="box">8</div>
+                        <div class="box">9</div>
+                        <div class="box">10</div>
+                        <div class="box">11</div>
+                        <div class="box">12</div>
+                        <div class="box">13</div>
+                        <div class="box">14</div>
+                    </div>
 
-                <br><button type="button" class="btn btn-primary">Daftar Sekarang!</button>
-                
-              </div>
-              <div class="bar-bawah position-absolute rounded-bottom w-100 bg-dark bottom-0 start-0"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-6 my-4">
-          <div class="card position-relative">
-            <img src="img/poster-lomba/Slice 8.png" alt="" class="card-img">
-            <div class="card-img-overlay">
-              <h3 class="card-title position-absolute">
-                <a href="" target="_blank">Seminar Nasional</a>
-              </h3>
-              <div class="card-text pe-1 position-absolute top-100">
-                <small class="text-muted">23 Januari 2023 - Auditorium UNAND</small><br>
-                <div class="detail-acara">Majelis ilmu yang diikuti oleh pelajar, mahasiswa dan umum dengan tema “Radioterapi”.<br>
-                </div>
-
-                <a href="" class="text-muted">Lihat selengkapnya ...</a><br>
-
-                <br><button type="button" class="btn btn-primary">Daftar Sekarang!</button>
-                
-              </div>
-              <div class="bar-bawah position-absolute rounded-bottom w-100 bg-dark bottom-0 start-0"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-6 my-4">
-          <div class="card position-relative">
-            <img src="img/poster-lomba/Slice 9.png" alt="" class="card-img">
-            <div class="card-img-overlay">
-              <h3 class="card-title position-absolute">
-                <a href="detail-events/4lctf/index.html" target="_blank">LCTF</a>
-              </h3>
-              <div class="card-text pe-1 position-absolute top-100">
-                <small class="text-muted">31 Januari 2023 - Auditorium UNAND</small><br>
-                <div class="detail-acara pe-1">Lomba Cerdas Tangkas Fisika (LCTF) adalah kompetisi ketangkasan dan ketepatan kelompok peserta lomba dalam menyelesaikan persoalan fisika yang
-                </div>
-
-                <a href="detail-events/4lctf/index.html" target="_blank" class="text-muted">Lihat selengkapnya ...</a><br>
-
-                <br><button type="button" class="btn btn-primary">Daftar Sekarang!</button>
-                
-              </div>
-              <div class="bar-bawah position-absolute rounded-bottom w-100 bg-dark bottom-0 start-0"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-6 my-4">
-          <div class="card position-relative">
-            <img src="img/poster-lomba/Slice 10.png" alt="" class="card-img">
-            <div class="card-img-overlay">
-              <h3 class="card-title mading position-absolute">
-                <a href="detail-events/5mading/index.html" target="_blank">Mading Competition</a>
-              </h3>
-              <div class="card-text pe-1 position-absolute top-100">
-                <small class="text-muted">31 Januari 2023 - Auditorium UNAND</small><br>
-                <div class="detail-acara pe-1">Madding competition diperuntukkan bagi siwa/I sma sedersjat untuk membentuk sebuah madding 3 dimensi dan <a href="detail-events/5mading/index.html" target="_blank" class="text-muted">lihat selengkapnya ...</a><br></div>
-
-                
-
-                <br><button type="button" class="btn btn-primary">Daftar Sekarang!</button>
-                
-              </div>
-              <div class="bar-bawah position-absolute rounded-bottom w-100 bg-dark bottom-0 start-0"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-6 my-4">
-          <div class="card position-relative">
-            <img src="img/poster-lomba/Slice 11.png" alt="" class="card-img">
-            <div class="card-img-overlay">
-              <h3 class="card-title position-absolute">
-                <a href="detail-events/6lkti/index.html" target="_blank">LKTI</a>
-              </h3>
-              <div class="card-text pe-1 position-absolute top-100">
-                <small class="text-muted">1 Februari 2023</small><br>
-                <div class="detail-acara pe-2">Kompetisi yang memuat hasil pemikiran siswa/i sma sederajat dan mahasiswa/I yan kritis serta kreatif yang berhubungan dengan konsep fisika dan <a href="detail-events/6lkti/index.html" target="_blank" class="text-muted">lihat selengkapnya ...</a><br>
-                </div>
-
-                <br><button type="button" class="btn btn-primary">Daftar Sekarang!</button>
-                
-              </div>
-              <div class="bar-bawah position-absolute rounded-bottom w-100 bg-dark bottom-0 start-0"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-6 my-4">
-          <div class="card position-relative">
-            <img src="img/poster-lomba/Slice 12.png" alt="" class="card-img">
-            <div class="card-img-overlay">
-              <h3 class="card-title design position-absolute">
-                <a href="detail-events/7design/index.html" target="_blank">Design Competition</a>
-              </h3>
-              <div class="card-text pe-1 position-absolute top-100">
-                <small class="text-muted">20 November 2022 - 29 Januari 2023</small><br>
-                <div class="detail-acara pe-2">Design competition terdiri dari lomba karikatur dan poster, lomba ini diikuti oleh pelajar, mahasiswwa, dan umum. Melalui lomba ini                 <a href="detail-events/7design/index.html" target="_blank" class="text-muted">lihat selengkapnya ...</a><br>
-                </div>
-
-
-                <br><button type="button" class="btn btn-primary">Daftar Sekarang!</button>
-                
-              </div>
-              <div class="bar-bawah position-absolute rounded-bottom w-100 bg-dark bottom-0 start-0"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-6 my-4">
-          <div class="card position-relative">
-            <img src="img/poster-lomba/Slice 13.png" alt="" class="card-img">
-            <div class="card-img-overlay">
-              <h3 class="card-title position-absolute">
-                <a href="detail-events/8ranking-1/index.html" target="_blank">Ranking 1</a>
-              </h3>
-              <div class="card-text position-absolute top-100">
-                <small class="text-muted">30 Januari 2023 - Auditorium UNAND</small><br>
-                <div class="detail-acara pe-2">Rangking 1 merupakan ajang kecerdasan dari siswa/I smp dan sma sederajat dalam mengetahui seputar ilmu pengetahuan alam...<a href="detail-events/8ranking-1/index.html" target="_blank" class="text-muted"> lihat selengkapnya</a><br>
-                </div>
-                <br><button type="button" class="btn btn-primary">Daftar Sekarang!</button>
-                
-              </div>
-              <div class="bar-bawah position-absolute rounded-bottom w-100 bg-dark bottom-0 start-0"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-6 my-4">
-          <div class="card position-relative">
-            <img src="img/poster-lomba/Slice 14.png" alt="" class="card-img">
-            <div class="card-img-overlay">
-              <h3 class="card-title position-absolute">
-                <a href="" target="_blank">Diskusi Guru</a>
-              </h3>
-              <div class="card-text position-absolute top-100">
-                <small class="text-muted">30 Januari 2023</small><br>
-                <div class="detail-acara pe-2">Dosen Fisika UNAND dan guru-guru pembimbing berkumpul membahas suatu topik fisika<br>
-                  </div>
-              </div>
-              <div class="bar-bawah position-absolute rounded-bottom w-100 bg-dark bottom-0 start-0"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-6 my-4">
-          <div class="card position-relative">
-            <img src="img/poster-lomba/Slice 15.png" alt="" class="card-img">
-            <div class="card-img-overlay">
-              <h3 class="card-title position-absolute">
-                <a href="" target="_blank">Physics Product</a>
-              </h3>
-              <div class="card-text position-absolute top-100">
-                <small class="text-muted">30 Januari 2023</small><br>
-                <div class="detail-acara pe-2">Physics product adalah salah satu bentuk penyajian dari panitia yang didalamnya memuat hasil kreativitas para kontestan lomba madding competition,</div>
+                    
 
                 </div>
-              <div class="bar-bawah position-absolute rounded-bottom w-100 bg-light bottom-0 start-0"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-6 my-4">
-          <div class="card position-relative">
-            <img src="img/poster-lomba/Slice 16.png" alt="" class="card-img">
-            <div class="card-img-overlay">
-              <h3 class="card-title position-absolute">
-                <a href="" target="_blank">Physics Inventor</a>
-              </h3>
-              <div class="card-text position-absolute top-100">
-                <small class="text-muted">30 Januari 2023</small><br>
-                <div class="detail-acara pe-2">Physics  inventor adalah  salah satu acara pf 24 yang mengenakan pakaian beserta aksesoris yang berhubungan dengan fisika.</div>
-              </div>
-              <div class="bar-bawah position-absolute rounded-bottom w-100 bg-light bottom-0 start-0"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-6 my-4">
-          <div class="card position-relative">
-            <img src="img/poster-lomba/Slice 17.png" alt="" class="card-img">
-            <div class="card-img-overlay">
-              <h3 class="card-title position-absolute">
-                <a href="" target="_blank">Closing</a>
-              </h3>
-              <div class="card-text position-absolute top-100">
-                <small class="text-muted">1 Februari 2023</small><br>
-                <div class="detail-acara pe-2">Closing adalah acara yerakhir dari rangkaian pf 24, berisi pengumuman dan pembagian hadiah pemenang semua lomba.</div>
-              </div>
-              <div class="bar-bawah position-absolute rounded-bottom w-100 bg-light bottom-0 start-0"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-6 my-4">
-          <div class="card position-relative">
-            <img src="img/poster-lomba/Slice 18.png" alt="" class="card-img">
-            <div class="card-img-overlay">
-              <h3 class="card-title selfie position-absolute">
-                <a href="detail-events/13selfie-groufie/index.html" target="_blank">Selfie and Groufie Competition</a>
-              </h3>
-              <div class="card-text position-absolute top-100">
-                <small class="text-muted">xx/yy/zzzz</small><br>
-                <div class="detail-acara pe-2">Selfie adalah sebuah trend masa kini, dimana seseoang memotret dirinya sendiri, sedangkan groufie adalah kegiatan memotret yang dilakuka oleh...<a href="detail-events/13selfie-groufie/index.html" target="_blank" class="text-muted"> lihat selengkapnya</a><br>
+            </section>
+    
+            <section id="events">
+                <div class="events">
+                    <h5>EVENTS</h5>
+                    <h2>TOUCH THE UNTOUCHABLE</h2>
+
+                    <div class="boxes">
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="deskripsi">
+                                <div class="acara">Grand Opening</div>
+                                <div class="detail">asdfasdf</div>
+                            </div>
+                            <!-- <div class="bar-bawah-sensor"></div> -->
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="deskripsi">
+                                <div class="acara">Grand Opening</div>
+                                <div class="detail">asdfasdf</div>
+                            </div>
+                            <!-- <div class="bar-bawah-sensor"></div> -->
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="deskripsi">
+                                <div class="acara">Grand Opening</div>
+                                <div class="detail">asdfasdf</div>
+                            </div>
+                            <!-- <div class="bar-bawah-sensor"></div> -->
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="deskripsi">
+                                <div class="acara">Grand Opening</div>
+                                <div class="detail">asdfasdf</div>
+                            </div>
+                            <!-- <div class="bar-bawah-sensor"></div> -->
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="deskripsi">
+                                <div class="acara">Grand Opening</div>
+                                <div class="detail">asdfasdf</div>
+                            </div>
+                            <!-- <div class="bar-bawah-sensor"></div> -->
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="deskripsi">
+                                <div class="acara">Grand Opening</div>
+                                <div class="detail">asdfasdf</div>
+                            </div>
+                            <!-- <div class="bar-bawah-sensor"></div> -->
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="deskripsi">
+                                <div class="acara">Grand Opening</div>
+                                <div class="detail">asdfasdf</div>
+                            </div>
+                            <!-- <div class="bar-bawah-sensor"></div> -->
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="deskripsi">
+                                <div class="acara">Grand Opening</div>
+                                <div class="detail">asdfasdf</div>
+                            </div>
+                            <!-- <div class="bar-bawah-sensor"></div> -->
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="deskripsi">
+                                <div class="acara">Grand Opening</div>
+                                <div class="detail">asdfasdf</div>
+                            </div>
+                            <!-- <div class="bar-bawah-sensor"></div> -->
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="deskripsi">
+                                <div class="acara">Grand Opening</div>
+                                <div class="detail">asdfasdf</div>
+                            </div>
+                            <!-- <div class="bar-bawah-sensor"></div> -->
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="deskripsi">
+                                <div class="acara">Grand Opening</div>
+                                <div class="detail">asdfasdf</div>
+                            </div>
+                            <!-- <div class="bar-bawah-sensor"></div> -->
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="deskripsi">
+                                <div class="acara">Grand Opening</div>
+                                <div class="detail">asdfasdf</div>
+                            </div>
+                            <!-- <div class="bar-bawah-sensor"></div> -->
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="deskripsi">
+                                <div class="acara">Grand Opening</div>
+                                <div class="detail">asdfasdf</div>
+                            </div>
+                            <!-- <div class="bar-bawah-sensor"></div> -->
+                        </div>
+                    </div>
+
+                    <!-- <div class="boxes">
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="poster-subtitle">
+                                <div class="deskripsi-lomba">
+                                    <div class="nama">Nama acara</div>
+                                    <div class="keterangan">Deskripsi acara</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="poster-subtitle">
+                                <div class="deskripsi-lomba">
+                                    <div class="nama">Nama acara</div>
+                                    <div class="keterangan">Deskripsi acara</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="poster-subtitle">
+                                <div class="deskripsi-lomba">
+                                    <div class="nama">Nama acara</div>
+                                    <div class="keterangan">Deskripsi acara</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="poster-subtitle">
+                                <div class="deskripsi-lomba">
+                                    <div class="nama">Nama acara</div>
+                                    <div class="keterangan">Deskripsi acara</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="poster-subtitle">
+                                <div class="deskripsi-lomba">
+                                    <div class="nama">Nama acara</div>
+                                    <div class="keterangan">Deskripsi acara</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="poster-subtitle">
+                                <div class="deskripsi-lomba">
+                                    <div class="nama">Nama acara</div>
+                                    <div class="keterangan">Deskripsi acara</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="poster-subtitle">
+                                <div class="deskripsi-lomba">
+                                    <div class="nama">Nama acara</div>
+                                    <div class="keterangan">Deskripsi acara</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="poster-subtitle">
+                                <div class="deskripsi-lomba">
+                                    <div class="nama">Nama acara</div>
+                                    <div class="keterangan">Deskripsi acara</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="poster-subtitle">
+                                <div class="deskripsi-lomba">
+                                    <div class="nama">Nama acara</div>
+                                    <div class="keterangan">Deskripsi acara</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="poster-subtitle">
+                                <div class="deskripsi-lomba">
+                                    <div class="nama">Nama acara</div>
+                                    <div class="keterangan">Deskripsi acara</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="poster-subtitle">
+                                <div class="deskripsi-lomba">
+                                    <div class="nama">Nama acara</div>
+                                    <div class="keterangan">Deskripsi acara</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="poster-subtitle">
+                                <div class="deskripsi-lomba">
+                                    <div class="nama">Nama acara</div>
+                                    <div class="keterangan">Deskripsi acara</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="poster-subtitle">
+                                <div class="deskripsi-lomba">
+                                    <div class="nama">Nama acara</div>
+                                    <div class="keterangan">Deskripsi acara</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="poster"></div>
+                            <div class="poster-subtitle">
+                                <div class="deskripsi-lomba">
+                                    <div class="nama">Nama acara</div>
+                                    <div class="keterangan">Deskripsi acara</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+
+
+
+                    <!-- <div class="boxes">
+                        <a href="" class="box">
+                            <div class="back-img"></div>
+                            <div class="nama-acara">Grand Opening</div>
+                        </a>
+                        <a href="" class="box">
+                            <div class="back-img"></div>
+                            <div class="nama-acara">Lomba Karya Tulis Ilmiah</div>
+                        </a>
+                        <a href="" class="box">
+                            <div class="back-img"></div>
+                            <div class="nama-acara">Lomba Cerdas Tangkas Fisika</div>
+                        </a>
+                        <a href="" class="box">
+                            <div class="back-img"></div>
+                            <div class="nama-acara">Physics Inventor</div>
+                        </a>
+                        <a href="" class="box">
+                            <div class="back-img"></div>
+                            <div class="nama-acara">Mading Competition</div>
+                        </a>
+                        <a href="" class="box">
+                            <div class="back-img"></div>
+                            <div class="nama-acara">Diskusi Guru</div>
+                        </a>
+                        <a href="" class="box">
+                            <div class="back-img"></div>
+                            <div class="nama-acara">Ranking 1</div>
+                        </a>
+                        <a href="" class="box">
+                            <div class="back-img"></div>
+                            <div class="nama-acara">Physics Product</div>
+                        </a>
+                        <a href="" class="box">
+                            <div class="back-img"></div>
+                            <div class="nama-acara">Lomba Fisika</div>
+                        </a>
+                        <a href="" class="box">
+                            <div class="back-img"></div>
+                            <div class="nama-acara">Selfie and Groufie Competition</div>
+                        </a>
+                        <a href="" class="box">
+                            <div class="back-img"></div>
+                            <div class="nama-acara">Seminar Nasional</div>
+                        </a>
+                        <a href="" class="box">
+                            <div class="back-img"></div>
+                            <div class="nama-acara">Design Competition</div>
+                        </a>
+                        <a href="" class="box">
+                            <div class="back-img"></div>
+                            <div class="nama-acara">Closing</div>
+                        </a>
+                    </div> -->
                 </div>
-                <br><button type="button" class="btn btn-primary">Daftar Sekarang!</button>
-                
-              </div>
-              <div class="bar-bawah position-absolute rounded-bottom w-100 bg-dark bottom-0 start-0"></div>
-            </div>
-          </div>
+            </section>
+
+            <section id="teams">
+                <div class="teams">
+                    <h5>OUR TEAMS</h5>
+                    <h2>GET TO KNOW US</h2>
+                    <div class="boxes">
+                        <div class="box">
+                            <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <div class="subtitle">
+                                <div class="nama">Bagas Meiza Mulya</div>
+                                <div class="jabatan">Ketua Pelaksana</div>
+                            </div>
+                            <div class="bar-bawah"></div>
+                            <div class="setengah-lingkaran"></div>
+                        </div>
+                        <div class="box">
+                            <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <div class="subtitle">
+                                <div class="nama">Bagas Meiza Mulya</div>
+                                <div class="jabatan">Ketua Pelaksana</div>
+                            </div>
+                            <div class="bar-bawah"></div>
+                            <div class="setengah-lingkaran"></div>
+                        </div>
+                        <div class="box">
+                            <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <div class="subtitle">
+                                <div class="nama">Bagas Meiza Mulya</div>
+                                <div class="jabatan">Ketua Pelaksana</div>
+                            </div>
+                            <div class="bar-bawah"></div>
+                            <div class="setengah-lingkaran"></div>
+                        </div>
+                        <div class="box">
+                            <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <div class="subtitle">
+                                <div class="nama">Bagas Meiza Mulya</div>
+                                <div class="jabatan">Ketua Pelaksana</div>
+                            </div>
+                            <div class="bar-bawah"></div>
+                            <div class="setengah-lingkaran"></div>
+                        </div>
+                        <div class="box">
+                            <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <div class="subtitle">
+                                <div class="nama">Bagas Meiza Mulya</div>
+                                <div class="jabatan">Ketua Pelaksana</div>
+                            </div>
+                            <div class="bar-bawah"></div>
+                            <div class="setengah-lingkaran"></div>
+                        </div>
+                        <div class="box">
+                            <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <div class="subtitle">
+                                <div class="nama">Bagas Meiza Mulya</div>
+                                <div class="jabatan">Ketua Pelaksana</div>
+                            </div>
+                            <div class="bar-bawah"></div>
+                            <div class="setengah-lingkaran"></div>
+                        </div>
+                        <div class="box">
+                            <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <div class="subtitle">
+                                <div class="nama">Bagas Meiza Mulya</div>
+                                <div class="jabatan">Ketua Pelaksana</div>
+                            </div>
+                            <div class="bar-bawah"></div>
+                            <div class="setengah-lingkaran"></div>
+                        </div>
+                        <div class="box">
+                            <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <div class="subtitle">
+                                <div class="nama">Bagas Meiza Mulya</div>
+                                <div class="jabatan">Ketua Pelaksana</div>
+                            </div>
+                            <div class="bar-bawah"></div>
+                            <div class="setengah-lingkaran"></div>
+                        </div>
+                        <div class="box">
+                            <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <div class="subtitle">
+                                <div class="nama">Bagas Meiza Mulya</div>
+                                <div class="jabatan">Ketua Pelaksana</div>
+                            </div>
+                            <div class="bar-bawah"></div>
+                            <div class="setengah-lingkaran"></div>
+                        </div>
+                        <div class="box">
+                            <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <div class="subtitle">
+                                <div class="nama">Bagas Meiza Mulya</div>
+                                <div class="jabatan">Ketua Pelaksana</div>
+                            </div>
+                            <div class="bar-bawah"></div>
+                            <div class="setengah-lingkaran"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="contact">
+                    <!-- <h5>CONTACT</h5> -->
+                    <div class="cont-container">
+                        <div class="box">
+                            <div class="brand">LOGO PHYSICS FESTIVAL XXIV</div>
+                            <div class="brand-subtitle">
+                                Alamat HIMAFI
+                                
+                                <br>Email PF24
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="head">Keep in Touch</div>
+                            <div class="cont-nav sosmed">
+                            
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href=""><i class="fa-brands fa-youtube"></i></a>    
+                            
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="head">Miscellaneous</div>
+                            <div class="cont-nav">File peraturan lomba dll</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-
-      </div>
-    </section>
-
-    <!-- TEAMS -->
-    <!-- <section id="teams" class="mx-auto">
-      <div class="teams text-center">OUR TEAMS</div>
-      <div class="teams-sub text-center">GET TO KNOW US</div>
-
-      <div class="container my-0">
-        <div class="row">
-        
-          <div class="col-2 d-lg-grid"></div>
-          <div class="kolom my-3 px-3 col-lg-4 col-md-4 col-sm-4 col-4 position-relative">
-            <a href="" target="_blank"><i class="fa-brands fa-instagram position-absolute "></i></a>
-            <img src="" alt="" class="position-absolute">
-            <div class="subtitle position-absolute bottom-0 start-0 w-100">
-              <div class="nama w-100">Bagas Meiza Mulya</div>
-              <div class="jabatan w-100">Ketua Pelaksana</div>
-            </div>
-            <div class="bar-bawah position-absolute rounded-bottom start-0 start-50 translate-middle-x"></div>
-            <div class="setengah-lingkaran position-absolute rounded-circle"></div>
-          </div>
-          
-          <div class="kolom my-3 px-3 col-lg-4 col-md-4 col-sm-4 col-4 position-relative">
-            <a href="" target="_blank"><i class="fa-brands fa-instagram position-absolute "></i></a>
-            <div class="subtitle position-absolute bottom-0 start-0 w-100 ">
-              <div class="nama w-100">Susi Zahara</div>
-              <div class="jabatan w-100">Sekretaris</div>
-            </div>
-            <div class="bar-bawah position-absolute rounded-bottom start-0 start-50 translate-middle-x"></div>
-            <div class="setengah-lingkaran position-absolute rounded-circle"></div>
-          </div>
-          
-          <div class="col-2 d-lg-grid"></div>
-          <div class="kolom my-3 px-3 col-lg-4 col-md-4 col-sm-4 col-4 position-relative">
-            <a href="" target="_blank"><i class="fa-brands fa-instagram position-absolute "></i></a>
-            <div class="subtitle position-absolute bottom-0 start-0 w-100 ">
-              <div class="nama w-100">Susi Zahara</div>
-              <div class="jabatan w-100">Sekretaris</div>
-            </div>
-            <div class="bar-bawah position-absolute rounded-bottom start-0 start-50 translate-middle-x"></div>
-            <div class="setengah-lingkaran position-absolute rounded-circle"></div>
-          </div>
-          
-          <div class="kolom my-3 px-3 col-lg-4 col-md-4 col-sm-4 col-4 position-relative">
-            <a href="" target="_blank"><i class="fa-brands fa-instagram position-absolute "></i></a>
-            <div class="subtitle position-absolute bottom-0 start-0 w-100 ">
-              <div class="nama w-100">Susi Zahara</div>
-              <div class="jabatan w-100">Sekretaris</div>
-            </div>
-            <div class="bar-bawah position-absolute rounded-bottom start-0 start-50 translate-middle-x"></div>
-            <div class="setengah-lingkaran position-absolute rounded-circle"></div>
-          </div>
-
-          <div class="kolom my-3 px-3 col-lg-4 col-md-4 col-sm-4 col-4 position-relative">
-            <a href="" target="_blank"><i class="fa-brands fa-instagram position-absolute "></i></a>
-            <div class="subtitle position-absolute bottom-0 start-0 w-100 ">
-              <div class="nama w-100 float-center">Susi Zahara</div>
-              <div class="jabatan w-100">Sekretaris</div>
-            </div>
-            <div class="bar-bawah position-absolute rounded-bottom start-0 start-50 translate-middle-x"></div>
-            <div class="setengah-lingkaran position-absolute rounded-circle"></div>
-          </div>
-
-          <div class="kolom my-3 px-3 col-lg-4 col-md-4 col-sm-4 col-4 position-relative">
-            <a href="" target="_blank"><i class="fa-brands fa-instagram position-absolute "></i></a>
-            <div class="subtitle position-absolute bottom-0 start-0 w-100 ">
-              <div class="nama w-100">Susi Zahara</div>
-              <div class="jabatan w-100">Sekretaris</div>
-            </div>
-            <div class="bar-bawah position-absolute rounded-bottom start-0 start-50 translate-middle-x"></div>
-            <div class="setengah-lingkaran position-absolute rounded-circle"></div>
-          </div>
-
-          <div class="kolom my-3 px-3 col-lg-4 col-md-4 col-sm-4 col-4 position-relative">
-            <a href="" target="_blank"><i class="fa-brands fa-instagram position-absolute "></i></a>
-            <div class="subtitle position-absolute bottom-0 start-0 w-100 ">
-              <div class="nama w-100">Susi Zahara</div>
-              <div class="jabatan w-100">Sekretaris</div>
-            </div>
-            <div class="bar-bawah position-absolute rounded-bottom start-0 start-50 translate-middle-x"></div>
-            <div class="setengah-lingkaran position-absolute rounded-circle"></div>
-          </div>
-
-          <div class="kolom my-3 px-3 col-lg-4 col-md-4 col-sm-4 col-4 position-relative">
-            <a href="" target="_blank"><i class="fa-brands fa-instagram position-absolute "></i></a>
-            <div class="subtitle position-absolute bottom-0 start-0 w-100 ">
-              <div class="nama w-100">Susi Zahara</div>
-              <div class="jabatan w-100">Sekretaris</div>
-            </div>
-            <div class="bar-bawah position-absolute rounded-bottom start-0 start-50 translate-middle-x"></div>
-            <div class="setengah-lingkaran position-absolute rounded-circle"></div>
-          </div>
-        </div> -->
-        <!-- <div class="row">
-        
-          <div class="col-2 d-md-none d-sm-none d-xs-none d-lg-grid"></div>
-          <div class="kolom my-3 px-3 col-lg-4 col-md-6 col-sm-12 position-relative">
-            <a href="" target="_blank"><i class="fa-brands fa-instagram position-absolute "></i></a>
-            <img src="" alt="" class="position-absolute">
-            <div class="subtitle position-absolute bottom-0 start-0 w-100">
-              <div class="nama w-100">Bagas Meiza Mulya</div>
-              <div class="jabatan w-100">Ketua Pelaksana</div>
-            </div>
-            <div class="bar-bawah position-absolute rounded-bottom start-0 start-50 translate-middle-x"></div>
-            <div class="setengah-lingkaran position-absolute rounded-circle"></div>
-          </div>
-          
-          <div class="kolom my-3 px-3 col-lg-4 col-md-6 col-sm-12 position-relative">
-            <a href="" target="_blank"><i class="fa-brands fa-instagram position-absolute "></i></a>
-            <div class="subtitle position-absolute bottom-0 start-0 w-100 ">
-              <div class="nama w-100">Susi Zahara</div>
-              <div class="jabatan w-100">Sekretaris</div>
-            </div>
-            <div class="bar-bawah position-absolute rounded-bottom start-0 start-50 translate-middle-x"></div>
-            <div class="setengah-lingkaran position-absolute rounded-circle"></div>
-          </div>
-          
-          <div class="col-2 d-md-none d-sm-none d-xs-none d-lg-grid"></div>
-          <div class="kolom my-3 px-3 col-lg-4 col-md-6 col-sm-12 position-relative">
-            <a href="" target="_blank"><i class="fa-brands fa-instagram position-absolute "></i></a>
-            <div class="subtitle position-absolute bottom-0 start-0 w-100 ">
-              <div class="nama w-100">Susi Zahara</div>
-              <div class="jabatan w-100">Sekretaris</div>
-            </div>
-            <div class="bar-bawah position-absolute rounded-bottom start-0 start-50 translate-middle-x"></div>
-            <div class="setengah-lingkaran position-absolute rounded-circle"></div>
-          </div>
-          
-          <div class="kolom my-3 px-3 col-lg-4 col-md-6 col-sm-12 position-relative">
-            <a href="" target="_blank"><i class="fa-brands fa-instagram position-absolute "></i></a>
-            <div class="subtitle position-absolute bottom-0 start-0 w-100 ">
-              <div class="nama w-100">Susi Zahara</div>
-              <div class="jabatan w-100">Sekretaris</div>
-            </div>
-            <div class="bar-bawah position-absolute rounded-bottom start-0 start-50 translate-middle-x"></div>
-            <div class="setengah-lingkaran position-absolute rounded-circle"></div>
-          </div>
-
-          <div class="kolom my-3 px-3 col-lg-4 col-md-6 col-sm-12 position-relative">
-            <a href="" target="_blank"><i class="fa-brands fa-instagram position-absolute "></i></a>
-            <div class="subtitle position-absolute bottom-0 start-0 w-100 ">
-              <div class="nama w-100">Susi Zahara</div>
-              <div class="jabatan w-100">Sekretaris</div>
-            </div>
-            <div class="bar-bawah position-absolute rounded-bottom start-0 start-50 translate-middle-x"></div>
-            <div class="setengah-lingkaran position-absolute rounded-circle"></div>
-          </div>
-
-          <div class="kolom my-3 px-3 col-lg-4 col-md-6 col-sm-12 position-relative">
-            <a href="" target="_blank"><i class="fa-brands fa-instagram position-absolute "></i></a>
-            <div class="subtitle position-absolute bottom-0 start-0 w-100 ">
-              <div class="nama w-100">Susi Zahara</div>
-              <div class="jabatan w-100">Sekretaris</div>
-            </div>
-            <div class="bar-bawah position-absolute rounded-bottom start-0 start-50 translate-middle-x"></div>
-            <div class="setengah-lingkaran position-absolute rounded-circle"></div>
-          </div>
-
-          <div class="kolom my-3 px-3 col-lg-4 col-md-6 col-sm-12 position-relative">
-            <a href="" target="_blank"><i class="fa-brands fa-instagram position-absolute "></i></a>
-            <div class="subtitle position-absolute bottom-0 start-0 w-100 ">
-              <div class="nama w-100">Susi Zahara</div>
-              <div class="jabatan w-100">Sekretaris</div>
-            </div>
-            <div class="bar-bawah position-absolute rounded-bottom start-0 start-50 translate-middle-x"></div>
-            <div class="setengah-lingkaran position-absolute rounded-circle"></div>
-          </div>
-
-          <div class="kolom my-3 px-3 col-lg-4 col-md-6 col-sm-12 position-relative">
-            <a href="" target="_blank"><i class="fa-brands fa-instagram position-absolute "></i></a>
-            <div class="subtitle position-absolute bottom-0 start-0 w-100 ">
-              <div class="nama w-100">Susi Zahara</div>
-              <div class="jabatan w-100">Sekretaris</div>
-            </div>
-            <div class="bar-bawah position-absolute rounded-bottom start-0 start-50 translate-middle-x"></div>
-            <div class="setengah-lingkaran position-absolute rounded-circle"></div>
-          </div>
-        </div> -->
-      <!-- </div> -->
-    <!-- </section> -->
-
-    <!-- CONTACTS -->
-    <section id="contacts" class="mx-auto my-0">
-      <div class="container-lg">
-        <div class="row h-100 position-relative overflow-hidden">
-          <div class="contact-latar col-5 p-0 position-relative text-end overflow-hidden">
-            <div class="contact-brand px-3 mx-3 d-flex flex-column position-absolute top-50 end-0 translate-middle-y">
-              <div class="brand">Logo PF</div>
-              <div class="alamat">Alamat HIMAFI</div>
-              <div class="email">Email PF</div>
-            </div>
-          </div>
-          <div class="col-2 p-0 ps-5">
-            <div class="contact-menu pt-5">
-              <div class="header pb-3">
-                Connect
-              </div>
-              <div class="menu d-flex flex-column">
-                <a href="">WhatsApp</a>
-                <a href="">Instagram</a>
-                <a href="">YouTube</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-2 p-0 mx-4">
-            <div class="contact-menu kanan pt-5">
-              <div class="header pb-3">
-                Other
-              </div>
-              <div class="menu d-flex flex-column">
-                <a href="">FAQ</a>
-                <a href="">Aturan lomba</a>
-                <a href="">Cara daftar akun</a>
-              </div>
-            </div>
-          </div>  
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <!-- place footer here -->
-  </footer>
-  <!-- Bootstrap JavaScript Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-  </script>
+    </div>
+    
+    
 </body>
-
 </html>
