@@ -304,6 +304,10 @@ main section {
     /* border: 1px solid tomato; */
 }
 
+#contacts .contact-brand .detail {
+    font-size: .8rem;
+}
+
 #contacts .contact-brand .brand img {
     right: 100px;
     top: 0;
@@ -743,7 +747,7 @@ main section {
     }
 
     #contacts .contact-brand .detail {
-        font-size: .28rem;
+        font-size: .29rem;
     }
 
     #contacts .col-5 {
